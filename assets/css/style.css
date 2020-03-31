@@ -6,7 +6,7 @@ html {
 body {
   max-width: 100%;
   max-height: auto;
-  overflow-y: hidden;
+  overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -39,7 +39,7 @@ nav {
   box-shadow: 0px 2px 5px #f6f6f6;
 }
 
-.brand {
+.brand a {
   display: flex;
 }
 
@@ -102,79 +102,7 @@ nav .logo {
   transform: translateX(0%);
 }
 
-/* body */
-
-.container {
-  max-width: 100%;
-  height: auto;
-  margin: 2em auto;
-  text-align: center;
-}
-
-.back-image img {
-  width: 100vw;
-  margin-bottom: 2rem;
-}
-
-.tagline {
-  margin-bottom: 2rem;
-}
-
-.tagline h2 {
-  font-size: 1.6rem;
-}
-
-.club-register {
-  margin-top: 6rem;
-}
-
-.club-register h3 {
-  font-size: 1.8rem;
-  padding-bottom: 0.5rem;
-}
-
-.btn.register {
-  padding: 0.5rem 4rem;
-  border-radius: 3em;
-  background-color: #0084ff;
-}
-
-.btn.register a {
-  letter-spacing: 0.2rem;
-  color: white;
-  font-size: 2.4rem;
-}
-
-.other-info {
-  margin: 6rem auto;
-}
-
-.other-info .btn {
-  border: 2px solid #0084ff;
-  padding: 1rem 3rem;
-  border-radius: 1.7rem;
-}
-
-.other-info a {
-  font-size: 2.3rem;
-  font-weight: 600;
-}
-
-.other-info p {
-  font-size: 1.8rem;
-}
-
-.other-info .btn:hover {
-  background-color: #0084ff;
-}
-
 /* footer */
-
-footer {
-  width: 100%;
-  border-top: 2px solid rgba(230, 228, 228, 0.5);
-  max-height: 10vh;
-}
 
 @media (min-height: 700px) {
   footer {
@@ -185,6 +113,12 @@ footer {
   }
 }
 
+footer {
+  width: 100%;
+  border-top: 2px solid rgba(230, 228, 228, 0.5);
+  max-height: 10vh;
+}
+
 .social-icons {
   display: flex;
   margin-top: 2em;
@@ -193,4 +127,73 @@ footer {
 
 footer img {
   width: 3em;
+}
+
+/* desktop version */
+
+@media (min-width: 950px) {
+  nav {
+    width: 100%;
+    display: flex;
+    height: 10vh;
+  }
+
+  nav .logo {
+    width: 7rem;
+  }
+
+  .brand-title {
+    font-size: 3.5rem;
+    margin-top: 2.5rem;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .close-btn {
+    display: none;
+  }
+
+  .show-desktop {
+    display: flex;
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 0;
+    margin: 1em 0 0 0;
+    transform: translateX(0%);
+    height: auto;
+    background: none;
+  }
+
+  .nav-links li a {
+    padding-bottom: 1.3em;
+    padding-top: 1.3em;
+  }
+
+  .nav-links li a:hover {
+    background-color: #f6f6f6;
+  }
+
+  /* footer */
+
+  footer.footer {
+    width: 100%;
+    position: relative;
+    max-height: 10vh;
+  }
+
+  .social-icons {
+    width: 60%;
+    margin: 2.5em auto;
+    justify-content: space-evenly;
+  }
+
+  footer img {
+    width: 3.5rem;
+  }
 }

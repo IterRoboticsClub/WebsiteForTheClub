@@ -3,3 +3,18 @@ https://static.wixstatic.com/media/fcb8e7_e1093d7e7fe6430a9b8c0184805d177d~mv2.p
 
 background
 https://static.wixstatic.com/media/fcb8e7_776a951a941e486aa2ceedc0c987095a~mv2_d_3368_1530_s_2.png/v1/crop/x_12,y_0,w_3356,h_1351/fill/w_1939,h_781,al_c,q_90,usm_0.66_1.00_0.01/IRC%20Logo.webp
+
+
+about text
+----------
+The need for a technical club which would incorporate the principles of all engineering branches onto a common platform was felt by the dynamic students of the college, as a result of which the iter robotics club was initiated in the year 2007.
+
+​It is an open club, co-ordinated by the students, functioning in the interest of students of the institution wishing to have a practical application of their knowledge base, gained from the classrooms.
+
+​We at iter robotics club constantly have been working for the spreading of technical awareness in the field of robotics .
+
+​We beileve in creating local hotpots of technical knowledge for the proper access to technology to the engineering fraternity. We believe in putting theories into practice in day to day life making process easier for humans
+
+​The worldwide developments in the field of robotics today has obviously encouraged whooping number of students taking ‘robotics’ into something more than just a hobby.
+
+Presently, the IRC has more than 100+ registered student members from various branches who have shown their excellence by winning robotics competitions throughout the nation.
