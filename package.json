@@ -1,0 +1,31 @@
+{
+  "name": "websitefortheclub",
+  "version": "1.0.0",
+  "description": "Website for IRC club",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amohapatra123/WebsiteForTheClub.git"
+  },
+  "author": "AnshumanMohapatra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amohapatra123/WebsiteForTheClub/issues"
+  },
+  "homepage": "https://github.com/amohapatra123/WebsiteForTheClub#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "3": "^2.1.0",
+    "-": "0.0.1",
+    "bootstrap": "^4.0.0",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.12.9"
+  }
+}
