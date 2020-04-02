@@ -80,8 +80,7 @@ nav .logo {
   position: absolute;
   top: 0;
   right: 0;
-  padding-top: 7em;
-  padding-right: 3em;
+  padding: 14em auto;
   display: block;
   text-align: center;
   width: 60%;
@@ -94,8 +93,9 @@ nav .logo {
 .nav-links li a {
   display: block;
   font-size: 2em;
-  padding: 2em;
+  padding: 2em auto;
   letter-spacing: 0.2rem;
+  margin: 2em auto;
 }
 
 .nav-links.nav-active {
@@ -155,27 +155,23 @@ footer img {
     display: none;
   }
 
-  .show-desktop {
-    display: flex;
-  }
-
   .nav-links {
     display: flex;
     justify-content: space-evenly;
-    width: 50%;
-    padding: 0;
+    width: 60%;
+    padding: 0 1em;
     margin: 1em 0 0 0;
-    transform: translateX(0%);
     height: auto;
     background: none;
+    transform: translateX(0%);
   }
 
   .nav-links li a {
-    padding-bottom: 1.3em;
-    padding-top: 1.3em;
+    padding: 1em 1em;
+    margin: 0;
   }
 
-  .nav-links li a:hover {
+  .nav-links li:hover {
     background-color: #f6f6f6;
   }
 
