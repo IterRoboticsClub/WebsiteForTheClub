@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: monospace;
+    color: darkgreen;
+}
+#textContainer{
+    width: 60%;
+    margin: auto;
+}
+#welcomeMessage{
+    float: inline-start;
+    clear: both;
+    text-align: center;
+}
+#cursor {
+    float: inline-start;
+    background: darkgreen;
+    margin-left: 1px;
+    width: 4px;
+    height: 26px;
+  
+    animation: blink 1.5s linear 0s infinite;
+  }
+  @keyframes blink {
+    0%   { background: darkgreen }
+    47%  { background: darkgreen }
+    50%  { background: black }
+    97%  { background: black }
+    100% { background: darkgreen }
+  }
