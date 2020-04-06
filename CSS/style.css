@@ -4,12 +4,13 @@ body{
     color: darkgreen;
 }
 #textContainer{
-    text-align: center;
+    width: 60%;
     margin: auto;
 }
 #welcomeMessage{
     float: inline-start;
     clear: both;
+    text-align: center;
 }
 #cursor {
     float: inline-start;
