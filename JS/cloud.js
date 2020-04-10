@@ -14,4 +14,21 @@ const doSomething = async() => {
 }
 
 doSomething()
+var val = 0;
+var color = ["blue","red","darkgreen","yellow",
+            "green","aquamarine","white","pink",
+            "aqua","chartreuse","crimson","darkblue",
+            "darkmagenta","deeppink","firebrick",
+            "hotpink","indigo","lawngreen","lime"];
+function changeColor() {
+    document.getElementById("body").style.color = color[val];
+    val++;
+    if (val>color.length) {
+        val = 0;
+    }
+}
 
+function randColor() {
+    val = Math.floor((Math.random() * color.length) + 1);
+    changeColor();
+}
