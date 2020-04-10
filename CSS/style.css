@@ -22,6 +22,7 @@ body{
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   #ircLogoAscii {
+    width: 60%;
     font-size: 2vw;
   }
 }
