@@ -5,10 +5,10 @@ body{
 
 }
 #ircLogoAscii{
-  width: 90%;
+  width: 60%;
   margin: auto;
   text-align: center;
-  font-size: 1vw;
+  font-size: 0.2em;
 }
 #textContainer{
     width: 90%;
@@ -16,7 +16,7 @@ body{
 }
 #welcomeMessage{
     text-align: center;
-    font-size: 1vw;
+    font-size: 0.2em;
 }
  
   
