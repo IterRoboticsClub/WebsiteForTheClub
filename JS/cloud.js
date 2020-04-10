@@ -8,7 +8,7 @@ const doSomething = async() => {
     var tmpMsg = " ";
     for (let index = 0; index < msg.length; index++) {
         tmpMsg += msg[index]; 
-        document.getElementById("welcomeMessage").innerHTML = tmpMsg;
+        document.getElementById("welcomeMessage").innerHTML = "<h1>"+tmpMsg+"</h1>";
         await sleep(150)
     } 
 }
