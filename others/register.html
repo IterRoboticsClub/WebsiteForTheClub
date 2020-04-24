@@ -1,146 +1,278 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>ITER ROBOTICS CLUB</title>
-	<link rel="icon" type="image" href="../photo.jpg">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	 <!-- Required meta tags always come first -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <head>
+    <title>ITER ROBOTICS CLUB</title>
+    <link rel="icon" type="image" href="../photo.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
 
-
-       <!-- bootstrap cdn -->
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <!-- bootstrap cdn -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
     <style>
-    	.navbar{
-    		padding: 25px;
-    		font-size: 25px;
-    	}
-         .logo{
-         	width: 50px;
-         	height: 50px;
-         }
-         .form{
-         	margin-top: 60px;
-         }
-         footer{
-          position: static !important ;
-        }
+      .navbar {
+        padding: 25px;
+        font-size: 25px;
+      }
+      .logo {
+        width: 50px;
+        height: 50px;
+      }
+      .form {
+        margin-top: 60px;
+      }
+      footer {
+        position: static !important ;
+      }
     </style>
-    </head>
-    <body>
-
-	 <nav class="navbar navbar-dark  bg-dark navbar-expand-sm fixed-md-top">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-               <span class="navbar-toggler-icon"></span> 
-            </button>
-            <a  class="navbar-brand mr-12" href="../index.html"><img src="../photo.jpg" class="logo"></a>
-               <div class="collapse navbar-collapse" id="Navbar">
-               <ul class="navbar-nav mr-auto">
-               <li class="nav-item"><a class="nav-link " href="../index.html">Home</a></li>
-               <li class="nav-item"><a class="nav-link " href="aboutus.html">About</a></li>
-               <li class="nav-item"><a class="nav-link " href="#">Gallery</a></li>
-               <li class="nav-item"><a class="nav-link " href="#">New</a></li>
-               <li class="nav-item"><a class="nav-link " href="#">Help</a></li>
-               <li class="nav-item"><a class="nav-link " href="contact.html">Contact</a></li>
-               </ul>
-               </div>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-md-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#Navbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand mr-12" href="home.html"
+          ><img src="../photo.jpg" class="logo"
+        /></a>
+        <div class="collapse navbar-collapse" id="Navbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">New</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Help</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-        </nav>
-        <section class="form">
-        	<form  method="POST" name="register" data-netlify="true">
-        	<div class="container">
-        		<div class="row">
-        			<div class="col-md-12">
-        				<h3 style="text-align: center;">Register Here guys!!!</h3>
-        			</div>
-        		</div>
-        		 <div class="form-group row">
-                     <label for="name" class="col-md-2 col-form-label offset-md-2" style="color:black;">Name</label>
-                     <div class="col-md-6"><input type="text" class="form-control" name="name" id="name" placeholder="Enter Name" ></div>
-                </div>
-                 <div class="form-group row">
-                     <label for="email" class="col-md-2 col-form-label offset-md-2" style="color:black;">Email</label>
-                     <div class="col-md-6"><input type="email" class="form-control" name="email" id="email" placeholder="Enter Email" ></div>
-                </div>
-                 <div class="form-group row">
-                     <label for="regno" class="col-md-2 col-form-label offset-md-2" style="color:black;">Registration Number</label>
-                     <div class="col-md-6"><input type="text" class="form-control" name="regno" id="regno" placeholder="Enter Registration Number" ></div>
-                </div>
-                 <div class="form-group row">
-                     <label for="year" class="col-md-2 col-form-label offset-md-2" style="color:black;">Year</label>
-                     <div class="col-md-6">
-                     	<select type="text" class="form-control" name="year" id="year">
-                     	<option value="1">First</option>
-                     	<option value="2">Second</option>
-                     	<option value="3">Third</option>
-                     	<option value="4">Fourth</option>
-                        </select>
-                     </div>
-                </div>
-                <div class="form-group row">
-                     <label for="branch" class="col-md-2 col-form-label offset-md-2" style="color:black;">Branch</label>
-                     <div class="col-md-6">
-                     	<select type="text" class="form-control" name="branch" id="branch">
-                     	<option value="CSE">CSE</option>
-                     	<option value="CSIT">CSIT</option>
-                     	<option value="ECE">ECE</option>
-                     	<option value="EE">EE</option>
-                     	<option value="EE">EE</option>
-                        </select>
-                     </div>
-                </div>
-                <div class="form-group row">
-                     <label for="contact" class="col-md-2 col-form-label offset-md-2" style="color:black;">Contact</label>
-                     <div class="col-md-6"><input type="text" class="form-control" name="contact" id="contact" placeholder="Enter Whattsapp Number" ></div>
-                </div>
-                <div class="form-group row">
-                     <div class="col-md-6 offset-md-2"><input type="button" class="btn btn-primary" name="register" id="register" value="Register"></div>
-                </div>
-        	</div>
-        </form>
-        </section><br><br><br><br><br><br><br>
-        <footer class="card-footer fixed-bottom" style="background-color: whitesmoke;">
-  <div class="container">
-    <dir class="row">
-       <div class="col-6 col-sm-5">
-                    <h5>Our Address:</h5>
-                    <address>
-                 Department of Electronics<br>
-                 and Communication Engineering,<br>
-                 ITER, Room No.221,E-block,<br>
-                 Bhubaneswar, Odisha 751030<br>
-               </address>
-                </div>
-              <div class="col-5  col-sm-5 " style="margin: 10px;margin: 10px;">
-             <a href="https://www.facebook.com/IterRoboticsClub"><i class="fa fa-facebook" style="font-size: 48px;font-decoration:none;"></i></a>
-             <a href="https://twitter.com/IRC_ITER"><i class="fa fa-twitter" style="font-size: 48px;"></i></a>
-             <a href="https://www.youtube.com/channel/UC6g_TZYUIqhkAgU7KS6SB4Q"><i class="fa fa-youtube" style="font-size: 48px;"></i></a>
-             <a href="https://www.instagram.com/iter_robotics_club/"><i class="fa fa-instagram" style="font-size: 48px;"></i></a>
-             </div>  
-    </dir>
-  </div>
-</footer>
-
-
-</body>
+      </div>
+    </nav>
+    <section class="form">
+      <form method="POST" name="register" data-netlify="true">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 style="text-align: center;">Register Here guys!!!</h3>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label
+              for="name"
+              class="col-md-2 col-form-label offset-md-2"
+              style="color: black;"
+              >Name</label
+            >
+            <div class="col-md-6">
+              <input
+                type="text"
+                class="form-control"
+                name="name"
+                id="name"
+                placeholder="Enter Name"
+              />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label
+              for="email"
+              class="col-md-2 col-form-label offset-md-2"
+              style="color: black;"
+              >Email</label
+            >
+            <div class="col-md-6">
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                id="email"
+                placeholder="Enter Email"
+              />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label
+              for="regno"
+              class="col-md-2 col-form-label offset-md-2"
+              style="color: black;"
+              >Registration Number</label
+            >
+            <div class="col-md-6">
+              <input
+                type="text"
+                class="form-control"
+                name="regno"
+                id="regno"
+                placeholder="Enter Registration Number"
+              />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label
+              for="year"
+              class="col-md-2 col-form-label offset-md-2"
+              style="color: black;"
+              >Year</label
+            >
+            <div class="col-md-6">
+              <select type="text" class="form-control" name="year" id="year">
+                <option value="1">First</option>
+                <option value="2">Second</option>
+                <option value="3">Third</option>
+                <option value="4">Fourth</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label
+              for="branch"
+              class="col-md-2 col-form-label offset-md-2"
+              style="color: black;"
+              >Branch</label
+            >
+            <div class="col-md-6">
+              <select
+                type="text"
+                class="form-control"
+                name="branch"
+                id="branch"
+              >
+                <option value="CSE">CSE</option>
+                <option value="CSIT">CSIT</option>
+                <option value="ECE">ECE</option>
+                <option value="EE">EE</option>
+                <option value="EE">EE</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label
+              for="contact"
+              class="col-md-2 col-form-label offset-md-2"
+              style="color: black;"
+              >Contact</label
+            >
+            <div class="col-md-6">
+              <input
+                type="text"
+                class="form-control"
+                name="contact"
+                id="contact"
+                placeholder="Enter Whattsapp Number"
+              />
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-md-6 offset-md-2">
+              <input
+                type="button"
+                class="btn btn-primary"
+                name="register"
+                id="register"
+                value="Register"
+              />
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+    <br /><br /><br /><br /><br /><br /><br />
+    <footer
+      class="card-footer fixed-bottom"
+      style="background-color: whitesmoke;"
+    >
+      <div class="container">
+        <dir class="row">
+          <div class="col-6 col-sm-5">
+            <h5>Our Address:</h5>
+            <address>
+              Department of Electronics<br />
+              and Communication Engineering,<br />
+              ITER, Room No.221,E-block,<br />
+              Bhubaneswar, Odisha 751030<br />
+            </address>
+          </div>
+          <div class="col-5 col-sm-5" style="margin: 10px; margin: 10px;">
+            <a href="https://www.facebook.com/IterRoboticsClub"
+              ><i
+                class="fa fa-facebook"
+                style="font-size: 48px; font-decoration: none;"
+              ></i
+            ></a>
+            <a href="https://twitter.com/IRC_ITER"
+              ><i class="fa fa-twitter" style="font-size: 48px;"></i
+            ></a>
+            <a href="https://www.youtube.com/channel/UC6g_TZYUIqhkAgU7KS6SB4Q"
+              ><i class="fa fa-youtube" style="font-size: 48px;"></i
+            ></a>
+            <a href="https://www.instagram.com/iter_robotics_club/"
+              ><i class="fa fa-instagram" style="font-size: 48px;"></i
+            ></a>
+          </div>
+        </dir>
+      </div>
+    </footer>
+  </body>
 </html>
-  <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
+<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+<script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+  crossorigin="anonymous"
+></script>
+<script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 <!-- Bootstrap cdn -->
- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+<script
+  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+  crossorigin="anonymous"
+></script>
