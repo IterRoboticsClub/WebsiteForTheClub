@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  margin: 2em auto;
+  text-align: center;
+}
+
+.container img {
+  width: 90vw;
+}
+
+@media (min-width: 900px) {
+  .container {
+    width: 80%;
+  }
+
+  .container img {
+    width: 30%;
+    cursor: pointer;
+  }
+
+  .fade {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    height: auto;
+  }
+
+  .fade img {
+    width: 100%;
+  }
+
+  .fade::after {
+    content: "Senior instructing juniors";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0;
+    transition: all 0.5s ease;
+  }
+
+  .fade:hover::after {
+    opacity: 0.5;
+  }
+}
