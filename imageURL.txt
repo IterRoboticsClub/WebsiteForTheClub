@@ -1,0 +1,43 @@
+logo
+https://static.wixstatic.com/media/fcb8e7_e1093d7e7fe6430a9b8c0184805d177d~mv2.png/v1/crop/x_322,y_0,w_606,h_629/fill/w_99,h_81,al_c,q_85,usm_0.66_1.00_0.01/IRC_1.webp
+
+background
+https://static.wixstatic.com/media/fcb8e7_776a951a941e486aa2ceedc0c987095a~mv2_d_3368_1530_s_2.png/v1/crop/x_12,y_0,w_3356,h_1351/fill/w_1939,h_781,al_c,q_90,usm_0.66_1.00_0.01/IRC%20Logo.webp
+
+
+about text
+----------
+The need for a technical club which would incorporate the principles of all engineering branches onto a common platform was felt by the dynamic students of the college, as a result of which the iter robotics club was initiated in the year 2007.
+
+​It is an open club, co-ordinated by the students, functioning in the interest of students of the institution wishing to have a practical application of their knowledge base, gained from the classrooms.
+
+​We at iter robotics club constantly have been working for the spreading of technical awareness in the field of robotics .
+
+​We beileve in creating local hotpots of technical knowledge for the proper access to technology to the engineering fraternity. We believe in putting theories into practice in day to day life making process easier for humans
+
+​The worldwide developments in the field of robotics today has obviously encouraged whooping number of students taking ‘robotics’ into something more than just a hobby.
+
+Presently, the IRC has more than 100+ registered student members from various branches who have shown their excellence by winning robotics competitions throughout the nation.
+
+
+
+Gallery images
+--------------
+
+https://static.wixstatic.com/media/6386bd_9180423343e444d99824d480a6143ea6~mv2_d_5184_3456_s_4_2.jpg/v1/fill/w_1014,h_676,al_c,q_90,usm_0.66_1.00_0.01/6386bd_9180423343e444d99824d480a6143ea6~mv2_d_5184_3456_s_4_2.webp
+
+https://static.wixstatic.com/media/6386bd_746f5892c37e4a9b82a06b31ddad6d0b~mv2_d_5184_3456_s_4_2.jpg/v1/fill/w_1046,h_698,al_c,q_90,usm_0.66_1.00_0.01/6386bd_746f5892c37e4a9b82a06b31ddad6d0b~mv2_d_5184_3456_s_4_2.webp
+
+https://static.wixstatic.com/media/6386bd_2f6394496a9841769af9af566ac87680~mv2.jpg/v1/fill/w_930,h_698,al_c,q_90,usm_0.66_1.00_0.01/6386bd_2f6394496a9841769af9af566ac87680~mv2.webp
+
+https://static.wixstatic.com/media/6386bd_b5c18119a8de44c58ab2453dcbfd3dd4~mv2.jpg/v1/fill/w_960,h_640,al_c,q_90/6386bd_b5c18119a8de44c58ab2453dcbfd3dd4~mv2.webp
+
+https://static.wixstatic.com/media/6386bd_b518c0270a47448b9c6d97ee95057596~mv2.jpg/v1/fill/w_698,h_698,al_c,q_90,usm_0.66_1.00_0.01/6386bd_b518c0270a47448b9c6d97ee95057596~mv2.webp
+
+https://static.wixstatic.com/media/6386bd_749756226697469bb9856b7d7aadbed5~mv2.jpg/v1/fill/w_756,h_563,al_c,q_90/6386bd_749756226697469bb9856b7d7aadbed5~mv2.webp
+
+https://static.wixstatic.com/media/6386bd_bb886b777d4e404fbeebc7b6766e6c8c~mv2.jpg/v1/fill/w_930,h_698,al_c,q_90,usm_0.66_1.00_0.01/6386bd_bb886b777d4e404fbeebc7b6766e6c8c~mv2.webp
+
+https://static.wixstatic.com/media/6386bd_9c08be0f7ac94d288d8c398b9c9516dc~mv2.jpg/v1/fill/w_960,h_638,al_c,q_90/6386bd_9c08be0f7ac94d288d8c398b9c9516dc~mv2.webp
+
+https://static.wixstatic.com/media/6386bd_c6f366f358d3433a99adf52b4b3647e3~mv2.jpg/v1/fill/w_930,h_698,al_c,q_90,usm_0.66_1.00_0.01/6386bd_c6f366f358d3433a99adf52b4b3647e3~mv2.webp
