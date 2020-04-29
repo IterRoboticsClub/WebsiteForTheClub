@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    color: #090;
+
+}
+#ircLogoAscii{
+  width: 40%;
+  margin: auto;
+  font-size: 1vw;
+  text-align: center;
+}
+#textContainer{
+    width: 80%;
+    margin: auto;
+}
+#welcomeMessage{
+    text-align: center;
+    font-size: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #ircLogoAscii {
+    width: 60%;
+    font-size: 2vw;
+  }
+}
+ 
+  
+  
