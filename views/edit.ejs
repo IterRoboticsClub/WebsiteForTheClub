@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/new.css" />
+    <script
+      src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js"
+      referrerpolicy="origin"
+    ></script>
+    <script src="../public/js/script.js"></script>
+    <script>
+      tinymce.init({
+        selector: "#mytextarea",
+        menubar: "edit view format",
+        width: 1200,
+        height: 600,
+      });
+    </script>
+  </head>
+
+  <body>
+    <!-- header -->
+    <%- include("partials/header") %>
+
+    <!-- body -->
+    <div class="container">
+      <h2 class="heading">New Blog</h2>
+
+      <form action="/blogs/<%= blog._id %>?_method=PUT" method="POST">
+        <div class="blog title">
+          <input
+            type="text"
+            name="blog[title]"
+            value="<%= blog.title %>"
+            required
+          />
+        </div>
+
+        <div class="blog image">
+          <input type="text" name="blog[image]" value="<%= blog.image %>" />
+        </div>
+
+        <div class="blog body">
+          <textarea id="mytextarea" name="blog[body]" required>
+              <%= blog.body %>
+        </textarea
+          >
+        </div>
+
+        <div class="blog author">
+          <input
+            type="text"
+            name="blog[author]"
+            value="<%= blog.author %>"
+            required
+          />
+        </div>
+
+        <div class="blog submit"><input type="submit" value="Submit" /></div>
+      </form>
+    </div>
+  </body>
+</html>
