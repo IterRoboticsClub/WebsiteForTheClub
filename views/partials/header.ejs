@@ -8,9 +8,30 @@
     </div>
 
     <ul class="nav-links">
+      <% if(!user) { %>
+
       <li class="nav-item"><a href="/">Home</a></li>
       <li class="nav-item"><a href="/blogs">Blogs</a></li>
       <li class="nav-item"><a href="/blogs/new">New Blog</a></li>
+      <li class="nav-item">
+        <a href="/login">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="signup" href="/register">Sign Up</a>
+      </li>
+
+      <% } else { %>
+      <li class="nav-item">
+        <a class="username" href="">Signed in as <%= user.name %> </a>
+      </li>
+      <li class="nav-item"><a href="/">Home</a></li>
+      <li class="nav-item"><a href="/blogs">Blogs</a></li>
+      <li class="nav-item"><a href="/blogs/new">New Blog</a></li>
+      <li class="nav-item">
+        <a href="/logout">Logout</a>
+      </li>
+
+      <% } %>
     </ul>
   </nav>
 </header>

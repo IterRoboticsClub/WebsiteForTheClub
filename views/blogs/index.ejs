@@ -10,7 +10,7 @@
 
   <body>
     <!-- HEADER -->
-    <%- include("partials/header") %>
+    <%- include("../partials/header") %>
 
     <!-- MAIN -->
     <div class="container">
@@ -19,7 +19,7 @@
         <h2 class="blog-title"><%= blog.title %></h2>
 
         <div class="other">
-          <h3 class="blog-author">By <%= blog.author %></h3>
+          <h3 class="blog-author">By <%= blog.author.name %></h3>
           <h4 class="blog-date"><%= blog.created.toDateString() %></h4>
         </div>
 

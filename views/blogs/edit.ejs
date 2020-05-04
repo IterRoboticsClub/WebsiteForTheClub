@@ -23,7 +23,7 @@
 
   <body>
     <!-- header -->
-    <%- include("partials/header") %>
+    <%- include("../partials/header") %>
 
     <!-- body -->
     <div class="container">
@@ -48,15 +48,6 @@
               <%= blog.body %>
         </textarea
           >
-        </div>
-
-        <div class="blog author">
-          <input
-            type="text"
-            name="blog[author]"
-            value="<%= blog.author %>"
-            required
-          />
         </div>
 
         <div class="blog submit"><input type="submit" value="Submit" /></div>

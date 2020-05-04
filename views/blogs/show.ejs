@@ -10,7 +10,7 @@
 
   <body>
     <!-- header -->
-    <%- include("partials/header") %>
+    <%- include("../partials/header") %>
 
     <!-- body -->
     <div class="container">
@@ -23,7 +23,7 @@
       <div class="section image">
         <img src="<%= blog.image %>" alt="" />
       </div>
-      <h3 class="section author"><%= blog.author %></h3>
+      <h3 class="section author"><%= blog.author.name %></h3>
       <h4 class="section date"><%= blog.created.toDateString() %></h4>
 
       <div class="buttons">
