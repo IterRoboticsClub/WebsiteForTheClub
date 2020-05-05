@@ -1,12 +1,20 @@
 const express = require("express"),
   router = express.Router(),
   path = require("path"),
-  passport = require("passport");
+  passport = require("passport"),
+  Joi = require("@hapi/joi");
 
 const User = require("../models/user");
 
+const schema = Joi.object({
+  name: Joi.string().min(3).max(30).required(),
+  username: Joi.string().min(10).max(12).required(),
+  email: Joi.string().required().email(),
+  password: Joi.string().min(8).required(),
+});
+
 router.get("/", (req, res) => {
-  res.redirect("/blogs");
+  res.sendFile(path.join(__dirname + "/../public/index.html"));
 });
 
 router.get("/register", (req, res) => {
@@ -14,6 +22,16 @@ router.get("/register", (req, res) => {
 });
 
 router.post("/register", (req, res) => {
+  // Validate the data
+  const { error } = schema.validate(req.body);
+  if (error) {
+    const msg = error.details[0].message;
+    req.flash("error", msg);
+    console.log(msg);
+    const { name, username, email } = req.body;
+    return res.redirect("/register");
+  }
+
   User.register(
     new User({
       username: req.body.username,
@@ -29,7 +47,6 @@ router.post("/register", (req, res) => {
       }
 
       passport.authenticate("local")(req, res, () => {
-        // req.flash("success", `Welcome to YelpCamp ${user.username}`);
         res.redirect("/blogs");
       });
     }

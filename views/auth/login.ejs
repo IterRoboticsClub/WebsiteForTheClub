@@ -9,15 +9,27 @@
   </head>
 
   <body>
+    <!-- HEADER -->
+    <%- include("../partials/header") %>
     <div class="container">
       <div class="heading">
         <h2>Login</h2>
       </div>
+      <%- include("../partials/message") %>
       <form action="/login" method="POST">
-        <input type="text" name="username" placeholder="Registration No." />
+        <input
+          type="text"
+          name="username"
+          placeholder="Username (Registration No.)"
+        />
         <input type="password" name="password" placeholder="Password" />
         <button class="btn" type="submit">Login</button>
       </form>
+
+      <div class="other">
+        <p>Do not have an account?</p>
+        <a href="/register">Register</a>
+      </div>
     </div>
   </body>
 </html>

@@ -72,3 +72,23 @@ li {
   font-size: 2em;
   color: white;
 }
+
+/* MESSAGE */
+
+.msg-box {
+  width: 70%;
+  margin: auto;
+  padding: 0.5rem 0;
+  font-size: 1.4rem;
+  border-radius: 0.7rem;
+}
+
+.msg-box.success {
+  background: rgb(120, 206, 140);
+  color: rgb(76, 133, 89);
+}
+
+.msg-box.error {
+  background: #f8d7da;
+  color: #b67b81;
+}

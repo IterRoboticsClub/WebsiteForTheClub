@@ -6,6 +6,9 @@
   margin: auto;
   text-align: center;
   margin-top: 5em;
+  border-radius: 1rem;
+  min-height: 50vh;
+  position: relative;
 }
 
 .container .heading h2 {
@@ -20,9 +23,11 @@
   height: 3.5rem;
   padding: 1rem;
   outline: none;
-  border: 1.5px solid #e6dfdf;
+  border: none;
+  background: #eee;
   -webkit-transition: 0.3s ease-in;
   transition: 0.3s ease-in;
+  border-radius: 0.5rem;
 }
 
 .container input:focus {
@@ -34,15 +39,53 @@
 .container button {
   cursor: pointer;
   padding: 0.5rem 2rem;
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   background: dodgerblue;
   color: white;
   border: none;
   font-size: 1.8rem;
   border-radius: 2rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container button:hover {
   background: #2475b0;
+}
+
+.container .other {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 5.5rem;
+}
+
+.container .other p {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.container .other a {
+  padding: 0.5rem 1.5rem;
+  border: 2px solid dodgerblue;
+  border-radius: 1rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 1.5rem;
+}
+
+.container .other a:hover {
+  background: dodgerblue;
+  color: white;
 }
 /*# sourceMappingURL=login.css.map */
