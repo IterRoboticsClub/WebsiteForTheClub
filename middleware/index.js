@@ -23,3 +23,17 @@ exports.checkBlogAuthor = function (req, res, next) {
     }
   });
 };
+
+exports.checkLoginInfo = function (req, res, next) {
+  User.findOne({ username: req.body.username }, (err, user) => {
+    if (err || !user) {
+      req.flash(
+        "error",
+        "This username does not exist. Please register first."
+      );
+      return res.redirect("/login");
+    }
+
+    next();
+  });
+};

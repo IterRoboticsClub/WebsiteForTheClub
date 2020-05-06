@@ -36,18 +36,6 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 passport.use(new localStrategy(User.authenticate()));
-/* passport.use(
-  new localStrategy(
-    {
-      usernameField: "regdNo",
-    },
-    (regdNo, password, done) => {
-      User.findOne({ regdNo })
-        .then((user) => {})
-        .catch((err) => console.log(err));
-    }
-  )
-); */
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
