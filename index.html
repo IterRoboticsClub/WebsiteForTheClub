@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image" href="photo.jpg" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>IRC | ITER ROBOTICS CLUB</title>
+    <style>
+      body {
+        background-color: rgb(0, 0, 0);
+        font-family: "Courier New", Courier, monospace;
+        color: #090;
+      }
+      #ircLogoAscii {
+        width: 40%;
+        margin: auto;
+        font-size: 1vw;
+        text-align: center;
+      }
+      #textContainer {
+        width: 80%;
+        margin: auto;
+      }
+      #welcomeMessage {
+        text-align: center;
+        font-size: 1em;
+      }
+
+      @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        #ircLogoAscii {
+          width: 60%;
+          font-size: 2vw;
+        }
+      }
+    </style>
+  </head>
+  <body id="body" onload="randColor()">
+    <div id="ircLogoAscii" onclick="changeColor()">
+      <h6>
+        <pre>
+            _____                    _____                    _____          
+           /\    \                  /\    \                  /\    \         
+          /::\    \                /::\    \                /::\    \        
+          \:::\    \              /::::\    \              /::::\    \       
+           \:::\    \            /::::::\    \            /::::::\    \      
+            \:::\    \          /:::/\:::\    \          /:::/\:::\    \     
+             \:::\    \        /:::/__\:::\    \        /:::/  \:::\    \    
+             /::::\    \      /::::\   \:::\    \      /:::/    \:::\    \   
+    ____    /::::::\    \    /::::::\   \:::\    \    /:::/    / \:::\    \  
+   /\   \  /:::/\:::\    \  /:::/\:::\   \:::\____\  /:::/    /   \:::\    \ 
+  /::\   \/:::/  \:::\____\/:::/  \:::\   \:::|    |/:::/____/     \:::\____\
+  \:::\  /:::/    \::/    /\::/   |::::\  /:::|____|\:::\    \      \::/    /
+   \:::\/:::/    / \/____/  \/____|:::::\/:::/    /  \:::\    \      \/____/ 
+    \::::::/    /                 |:::::::::/    /    \:::\    \             
+     \::::/____/                  |::|\::::/    /      \:::\    \            
+      \:::\    \                  |::| \::/____/        \:::\    \           
+       \:::\    \                 |::|  ~|               \:::\    \          
+        \:::\    \                |::|   |                \:::\    \         
+         \:::\____\               \::|   |                 \:::\____\        
+          \::/    /                \:|   |                  \::/    /        
+           \/____/                  \|___|                   \/____/         
+                                                                                   
+    </pre
+        >
+      </h6>
+    </div>
+    <div id="textContainer">
+      <div id="welcomeMessage"></div>
+    </div>
+  </body>
+</html>
+<script>
+  const sleep = (milliseconds) => {
+    return new Promise((resolve) => setTimeout(resolve, milliseconds));
+  };
+
+  const doSomething = async () => {
+    var msg = "WELCOME TO ITER ROBOTICS CLUB";
+    var tmpMsg = " ";
+    for (let index = 0; index < msg.length; index++) {
+      tmpMsg += msg[index];
+      document.getElementById("welcomeMessage").innerHTML =
+        "<h1>" + tmpMsg + "</h1>";
+      await sleep(250);
+    }
+    nextpage();
+  };
+
+  doSomething();
+  var val = 0;
+  var color = [
+    "blue",
+    "red",
+    "darkgreen",
+    "yellow",
+    "green",
+    "aquamarine",
+    "white",
+    "pink",
+    "aqua",
+    "chartreuse",
+    "crimson",
+    "darkblue",
+    "darkmagenta",
+    "deeppink",
+    "firebrick",
+    "hotpink",
+    "indigo",
+    "lawngreen",
+    "lime",
+  ];
+  function nextpage() {
+    var delay = 3000;
+    setTimeout(function () {
+      window.location = "./others/home.html";
+    }, delay);
+  }
+</script>
