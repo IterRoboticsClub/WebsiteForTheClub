@@ -1,0 +1,51 @@
+.container {
+  width: 70%;
+  margin: 3em auto;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.title h2 {
+  font-size: 4rem;
+}
+
+.body {
+  font-size: 2rem;
+}
+
+.author,
+.date {
+  font-size: 1.7rem;
+}
+
+.buttons {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn,
+.delete {
+  border-radius: 0.8rem;
+  cursor: pointer;
+  border: none;
+}
+
+.btn.edit {
+  background: #dfaf2b;
+  padding: 0.3em 3.5rem;
+}
+
+.edit a {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.delete {
+  background-color: #d63031;
+  color: white;
+  padding: 1rem 4rem;
+  font-size: 1.8rem;
+}

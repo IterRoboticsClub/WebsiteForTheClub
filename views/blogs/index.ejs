@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogs</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <%- include("../partials/header") %>
+
+    <!-- MAIN -->
+    <div class="container">
+      <% blogs.forEach((blog) => { %>
+      <div class="blog">
+        <h2 class="blog-title"><%= blog.title %></h2>
+
+        <div class="other">
+          <h3 class="blog-author">By <%= blog.author.name %></h3>
+          <h4 class="blog-date"><%= blog.created.toDateString() %></h4>
+        </div>
+
+        <!-- <div class="body">
+          <p class="blog-body"><%= blog.body.substring(0, 200) %>...</p>
+        </div> -->
+
+        <div class="image">
+          <img src="<%= blog.image %>" alt="" />
+        </div>
+
+        <div class="btn">
+          <a href="/blogs/<%= blog._id %>">Read More</a>
+          <!-- <img src="/images/arrow.svg" alt="" /> -->
+        </div>
+      </div>
+      <% }) %>
+    </div>
+  </body>
+</html>

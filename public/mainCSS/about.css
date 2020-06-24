@@ -1,0 +1,23 @@
+.container {
+  width: 100vw;
+  padding: 2em;
+  background-color: #f6f6f6;
+}
+
+.heading {
+  font-size: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.container p {
+  font-size: 1.8rem;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 900px) {
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    height: 80vh;
+  }
+}

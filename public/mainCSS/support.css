@@ -1,0 +1,68 @@
+.container {
+  width: 100%;
+  background-color: #f6f6f6;
+  padding: 3rem 0;
+}
+
+.intro,
+.contact-info {
+  padding-left: 1.5em;
+}
+
+.intro {
+  text-align: center;
+}
+
+.heading {
+  padding-top: 3rem;
+}
+
+.heading {
+  font-size: 2.7rem;
+  margin-bottom: 0.5rem;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.sub-title {
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+
+p,
+.number {
+  font-size: 2.1rem;
+  line-height: 1.5em;
+}
+
+.faculty,
+.coordinators {
+  margin: 4rem auto;
+}
+
+@media (min-width: 900px) {
+  .container {
+    width: 90%;
+    min-height: 80vh;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 3rem 2rem;
+  }
+
+  .contact-info,
+  .parts {
+    display: flex;
+  }
+
+  .part {
+    padding: 1em 2em 1em 0.2em;
+  }
+}

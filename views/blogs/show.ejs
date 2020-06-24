@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= blog.title %></title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/show.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <%- include("../partials/header") %>
+
+    <!-- body -->
+    <div class="container">
+      <div class="section title">
+        <h2><%= blog.title %></h2>
+      </div>
+      <div class="section body">
+        <%- blog.body %>
+      </div>
+      <div class="section image">
+        <img src="<%= blog.image %>" alt="" />
+      </div>
+      <h3 class="section author"><%= blog.author.name %></h3>
+      <h4 class="section date"><%= blog.created.toDateString() %></h4>
+
+      <div class="buttons">
+        <button class="btn edit">
+          <a href="/blogs/<%= blog._id %>/edit">Edit Blog</a>
+        </button>
+        <form action="/blogs/<%= blog._id %>?_method=DELETE" method="POST">
+          <button class="btn">
+            <input class="delete" type="submit" value="Delete" />
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

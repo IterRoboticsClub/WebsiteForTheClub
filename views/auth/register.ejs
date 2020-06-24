@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/register.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <%- include("../partials/header") %>
+    <div class="container">
+      <div class="heading">
+        <h2>Create Account</h2>
+      </div>
+
+      <%- include("../partials/message.ejs") %>
+      <form action="/register" method="POST">
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Name"
+          value="<%= typeof name != 'undefined' ? name : '' %>"
+        />
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Username (Registration No.)"
+          value="<%= typeof username != 'undefined' ? username : '' %>"
+        />
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="Email"
+          value="<%= typeof email != 'undefined' ? email : '' %>"
+        />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+        />
+        <button class="btn" type="submit">Sign Up</button>
+      </form>
+
+      <div class="other">
+        <p>Already registered?</p>
+        <a href="/login">Login</a>
+      </div>
+    </div>
+  </body>
+</html>

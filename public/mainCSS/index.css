@@ -1,0 +1,122 @@
+/* body */
+
+.container {
+  max-width: 100%;
+  height: auto;
+  margin: 2em auto;
+  text-align: center;
+}
+
+.back-image img {
+  width: 100vw;
+  margin-bottom: 2rem;
+}
+
+.tagline {
+  margin-bottom: 2rem;
+}
+
+.tagline h2 {
+  font-size: 1.6rem;
+  color: #2b2a29;
+}
+
+.club-register {
+  margin-top: 6rem;
+}
+
+.club-register h3 {
+  font-size: 1.8rem;
+  padding-bottom: 0.5rem;
+}
+
+.btn.register {
+  padding: 0.5rem 4rem;
+  border-radius: 3em;
+  background-color: #0084ff;
+}
+
+.btn.register a {
+  color: white;
+  font-size: 2.4rem;
+}
+
+.other-info {
+  margin: 6rem auto;
+}
+
+.other-info .btn {
+  border: 2px solid #0084ff;
+  padding: 1rem 3rem;
+  border-radius: 1.7rem;
+}
+
+.other-info a {
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+.other-info p {
+  font-size: 1.8rem;
+}
+
+.other-info .btn:hover {
+  cursor: pointer;
+  background-color: #0084ff;
+}
+
+/* desktop version */
+
+@media (min-width: 950px) {
+  .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .back-image img {
+    width: 100%;
+    margin: 2em auto;
+  }
+
+  .tagline h2 {
+    font-size: 4rem;
+    color: rgba(30, 30, 30, 0.9);
+  }
+
+  .club-register h3 {
+    font-size: 3rem;
+  }
+
+  .btn.register {
+    width: 25%;
+    height: auto;
+    padding: 3em auto;
+  }
+
+  .btn.register a {
+    letter-spacing: 0.2rem;
+    color: white;
+    font-size: 2.7rem;
+  }
+
+  .btn.register:hover {
+    box-shadow: 0px 3px 5px #979797;
+    cursor: pointer;
+  }
+
+  .other-info a {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+  }
+
+  .other-info p {
+    font-size: 2.3rem;
+    letter-spacing: 0.2rem;
+  }
+
+  .other-info .btn {
+    width: 30%;
+    margin: 3em auto;
+  }
+}
