@@ -21,7 +21,7 @@ var color = ["blue","red","darkgreen","yellow",
             "darkmagenta","deeppink","firebrick",
             "hotpink","indigo","lawngreen","lime"];
 function changeColor() {
-    document.getElementById("body").style.color = color[val];
+    document.body.style.setProperty('--colorOverall',color[val]);
     val++;
     if (val>color.length) {
         val = 0;

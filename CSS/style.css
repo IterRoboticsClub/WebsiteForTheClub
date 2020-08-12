@@ -1,7 +1,8 @@
 body{
     background-color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
-    color: #090;
+    --colorOverall: #090;
+    color:var(--colorOverall);
 
 }
 #ircLogoAscii{
@@ -26,6 +27,6 @@ body{
     font-size: 2vw;
   }
 }
- 
+
   
   
